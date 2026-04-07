@@ -1,0 +1,38 @@
+# System
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local environment
+.venv/
+venv/
+.env
+.env.*
+
+# Editors
+.idea/
+.vscode/
+
+# Project generated files
+data/
+results/
+checkpoints/
+logs/
+.mplconfig/
+
+# Model/data artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.parquet
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
